@@ -220,7 +220,45 @@ footer {
     }
 
     .container {
-        grid
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+    .text-container h1 {
+        font-size: 1.8em;
+        font-weight: 600;
+    }
+    .btn-link{
+        display: inline-block;
+        background: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-raduis: 8px;
+        margin-top: 10px;
+        font-weight: bold;
+        transition: background 0.3s ease, transform 0.2s ease;
+    }
+    .btn-link:hover {
+        background: #45a049;
+        transform: scale(1.05);
+    }    
+    .contact-info{
+        margin-top: 20px;
+        font-size: 1em;
+        color: #fff;
+    }
+    .contact-info a{
+        color: #fff;
+        text-decoration: underline;
+    }
+    .contact-info a:hover {
+        color: #ccc;
+    }
+
+        
+        
 
 
     
