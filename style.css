@@ -231,7 +231,7 @@ footer {
     }
     .btn-link{
         display: inline-block;
-        background: #4CAF50;
+        background: #800000;
         color: white;
         padding: 10px 20px;
         text-decoration: none;
@@ -241,7 +241,7 @@ footer {
         transition: background 0.3s ease, transform 0.2s ease;
     }
     .btn-link:hover {
-        background: #45a049;
+        background: #800000;
         transform: scale(1.05);
     }    
     .contact-info{
@@ -250,11 +250,11 @@ footer {
         color: #fff;
     }
     .contact-info a{
-        color: #fff;
+        color: #800000;
         text-decoration: underline;
     }
     .contact-info a:hover {
-        color: #ccc;
+        color: #800000;
     }
 
         
