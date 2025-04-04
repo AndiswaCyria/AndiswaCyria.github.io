@@ -107,10 +107,17 @@ body {
 }
 @media (max-width: 600px) {
     .navbar ul{
+        display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 0;
     }
+    .nav ul li{
+        margin: 10px 0;
+    }        
     .hero{
+        text-align: center;
+        padding: 20px;
         font-size: 1.5em;
     }
 }
@@ -132,6 +139,7 @@ html {
     flex-direction: column;
     gap: 15px; 
     width: 100%;
+    box-sizing: border-box;
 } 
 .form-group {
     display: flex;
@@ -193,10 +201,10 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: grey; /* Optional: Adjust background color */
+    background-color: grey; 
     text-align: center;
     padding: 10px 0;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
 }
 html, body{
     height: 100%;
@@ -218,3 +226,20 @@ html, body{
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+.contact-form button{
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    box-sizing: border-box;
+} 
+.contact-form button:hover{
+    background: #555;
+}    
+    
+    
